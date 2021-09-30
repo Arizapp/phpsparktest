@@ -1,0 +1,9 @@
+CRITICAL - 2020-08-05 07:30:25 --> compact(): Undefined variable: plans
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'compact(): Unde...', 'D:\\wamp64\\www\\r...', 26, Array)
+#1 D:\wamp64\www\realtelecom\app\Controllers\Admin\App\AreaDeCobertura.php(26): compact(Array)
+#2 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Admin\App\AreaDeCobertura->index()
+#3 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\App\AreaDeCobertura))
+#4 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\wamp64\www\realtelecom\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\r...')
+#7 {main}

@@ -1,0 +1,76 @@
+CRITICAL - 2021-03-15 13:26:12 --> array_values() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_values() ...', 'C:\\wamp64\\www\\b...', 44, Array)
+#1 C:\wamp64\www\bestimob\app\Controllers\Admin\Api\Imoveis.php(44): array_values(Object(App\Entities\Imovel))
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin\Api\Imoveis->index()
+#3 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Api\Imoveis))
+#4 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#7 {main}
+CRITICAL - 2021-03-15 13:26:14 --> array_values() expects parameter 1 to be array, object given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_values() ...', 'C:\\wamp64\\www\\b...', 44, Array)
+#1 C:\wamp64\www\bestimob\app\Controllers\Admin\Api\Imoveis.php(44): array_values(Object(App\Entities\Imovel))
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin\Api\Imoveis->index()
+#3 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Api\Imoveis))
+#4 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#7 {main}
+CRITICAL - 2021-03-15 13:31:50 --> Call to undefined method App\Models\Imoveis::or_like
+#0 C:\wamp64\www\bestimob\app\Controllers\Admin\Api\Imoveis.php(48): CodeIgniter\Model->__call('or_like', Array)
+#1 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin\Api\Imoveis->index()
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Api\Imoveis))
+#3 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-03-15 14:04:43 --> Trying to get property 'foto' of non-object
+#0 C:\wamp64\www\bestimob\app\Controllers\Admin\Api\Imoveis.php(49): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\b...', 49, Array)
+#1 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin\Api\Imoveis->index()
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Api\Imoveis))
+#3 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}
+CRITICAL - 2021-03-15 14:08:16 --> Call to undefined function number_to_currency()
+#0 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin\Api\Imoveis->index()
+#1 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Api\Imoveis))
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#5 {main}
+CRITICAL - 2021-03-15 14:15:58 --> Unknown column 'codigo' in 'where clause'
+#0 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `foto`, ...')
+#1 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `foto`, ...')
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `foto`, ...')
+#3 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `foto`, ...', Array, false)
+#4 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\bestimob\app\Controllers\Admin\Api\Imoveis.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin\Api\Imoveis->index()
+#8 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Api\Imoveis))
+#9 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#12 {main}
+CRITICAL - 2021-03-15 14:38:46 --> Call to undefined function assets_url()
+#0 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin\Api\Imoveis->index()
+#1 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Api\Imoveis))
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#5 {main}
+CRITICAL - 2021-03-15 14:42:15 --> Unknown column 'imoveis.cidade' in 'field list'
+#0 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(314): mysqli->query('SELECT `imoveis...')
+#1 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Database\BaseConnection.php(713): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `imoveis...')
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Database\BaseConnection.php(641): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `imoveis...')
+#3 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT `imoveis...', Array, false)
+#4 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Model.php(213): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\BaseModel.php(583): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\wamp64\www\bestimob\app\Controllers\Admin\Api\Imoveis.php(49): CodeIgniter\BaseModel->findAll()
+#7 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin\Api\Imoveis->index()
+#8 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Api\Imoveis))
+#9 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#12 {main}

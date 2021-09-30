@@ -1,0 +1,37 @@
+// Fonts
+@import "fonts";
+// Variables
+@import "variables";
+// Mixins
+@import "mixins";
+// FontAwesome
+@import "../../vendor/fortawesome/font-awesome/scss/regular";
+@import "../../vendor/fortawesome/font-awesome/scss/solid";
+@import "../../vendor/fortawesome/font-awesome/scss/brands";
+@import "../../vendor/fortawesome/font-awesome/scss/v4-shims";
+@import "../../vendor/fortawesome/font-awesome/scss/fontawesome";
+// Bootstrap
+@import '../../vendor/twbs/bootstrap/scss/bootstrap';
+// Views
+@import "admin";
+@import "app";
+
+
+.validator-holder {
+    position: relative;
+    .input-validator {
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-color: transparent;
+        color: transparent;
+        background: transparent;
+
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,17 @@
+body.Admin-Login-index {
+    background-color: $primary;
+    background-image: url("/assets/img/justice.png");
+    background-position-x: 20%;
+    background-position-y: 20px;
+    background-repeat: no-repeat;
+
+    .input-icon-email {
+        @include input-icon-lg("\f1fa");
+    }
+
+    .input-icon-password {
+        @include input-icon-lg("\f084");
+    }
+}
+
+

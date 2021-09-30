@@ -1,0 +1,36 @@
+CRITICAL - 2020-07-06 14:28:28 --> Undefined offset: 1
+#0 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\Router\Router.php(438): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\wamp64\\www\\m...', 438, Array)
+#1 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('admin')
+#2 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin')
+#3 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\wamp64\www\minutoadv2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2020-07-06 14:29:13 --> Undefined offset: 1
+#0 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\Router\Router.php(438): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\wamp64\\www\\m...', 438, Array)
+#1 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('admin')
+#2 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin')
+#3 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\wamp64\www\minutoadv2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2020-07-06 14:30:17 --> Undefined offset: 1
+#0 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\Router\Router.php(438): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\wamp64\\www\\m...', 438, Array)
+#1 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('admin')
+#2 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin')
+#3 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\wamp64\www\minutoadv2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2020-07-06 14:30:25 --> Undefined offset: 1
+#0 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\Router\Router.php(438): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\wamp64\\www\\m...', 438, Array)
+#1 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('admin')
+#2 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('admin')
+#3 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\wamp64\www\minutoadv2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\m...')
+#7 {main}

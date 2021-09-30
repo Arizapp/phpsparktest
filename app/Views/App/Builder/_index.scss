@@ -1,0 +1,54 @@
+#Builder {
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    h4 {
+        @include media-breakpoint-down(sm) {
+            font-size: 1.4rem;
+        }
+    }
+
+    .product {
+        position: relative;
+
+        .picture {
+            background-color: gray;
+            position: absolute;
+            top: 1.5rem;
+            left: -1rem;
+            transform: translate(-100%, -50%);
+            width: 220px;
+            height: 220px;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            z-index: 10;
+
+            &:after {
+                content: "×";
+                color: $gray-400;
+                position: absolute;
+                top: 0;
+                right: 5px;
+                z-index: 1;
+                cursor: pointer;
+            }
+
+            @media (max-width: 1599px) {
+                left: 0;
+                top: -210px;
+                transform: none;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,15 @@
+<?php return array (
+  'home' => 'App\\Home::index',
+  'trabalhe-conosco' => 'App\\TrabalheConosco::index',
+  'imoveis/busca' => 'App\\Imoveis::busca',
+  'faq' => 'App\\Faq::index',
+  'contato' => 'App\\Contato::index',
+  'quem-somos' => 'App\\QuemSomos::index',
+  'simulador' => 'App\\Simulador::index',
+  'simulador/idade' => 'App\\Simulador::idade',
+  'comprar' => 'App\\Imoveis::comprar',
+  'indique-um-amigo' => 'App\\Indique::Index',
+  'imovel' => 'App\\Imoveis::index',
+  'alugar' => 'App\\Imoveis::alugar',
+  'investir' => 'App\\Imoveis::investir',
+);

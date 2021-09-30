@@ -1,0 +1,18 @@
+CRITICAL - 2021-03-18 16:26:10 --> The action you requested is not allowed.
+#0 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/api/bairr...', 'before')
+#4 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#7 {main}
+CRITICAL - 2021-03-18 16:26:11 --> The action you requested is not allowed.
+#0 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/api/bairr...', 'before')
+#4 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#7 {main}

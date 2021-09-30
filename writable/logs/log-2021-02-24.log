@@ -1,0 +1,11 @@
+CRITICAL - 2021-02-24 11:13:10 --> Trying to get property 'faq' of non-object
+#0 C:\wamp64\www\bestimob\app\Views\App\Faq\index.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'C:\\wamp64\\www\\b...', 5, Array)
+#1 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\View\View.php(246): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('App/Faq/index', Array, true)
+#3 C:\wamp64\www\bestimob\app\Controllers\App\Faq.php(18): view('App/Faq/index', Array)
+#4 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\App\Faq->index()
+#5 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App\Faq))
+#6 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('C:\\wamp64\\www\\b...')
+#9 {main}

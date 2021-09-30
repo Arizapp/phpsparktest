@@ -1,0 +1,21 @@
+CRITICAL - 2020-09-25 08:33:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select(SUM(sys_product_invoice_products.amount) from sys_product_invoice_product' at line 1
+#0 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT `sys_pro...')
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `sys_pro...')
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `sys_pro...')
+#3 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT `sys_pro...', Array, false)
+#4 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wamp64\www\puravida\app\Controllers\Api\ProductInvoice.php(32): CodeIgniter\Model->findAll(3, 0)
+#6 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Api\ProductInvoice->index('1')
+#7 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductInvoice))
+#8 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#11 {main}
+CRITICAL - 2020-09-25 08:49:17 --> Undefined offset: 7
+#0 D:\wamp64\www\puravida\app\Controllers\Api\ProductInvoice.php(36): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\wamp64\\www\\p...', 36, Array)
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Api\ProductInvoice->index('1')
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\ProductInvoice))
+#3 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#6 {main}

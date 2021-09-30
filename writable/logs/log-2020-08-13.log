@@ -1,0 +1,85 @@
+CRITICAL - 2020-08-13 07:38:55 --> Class 'Tests\Support\Models\UserModel' not found
+#0 D:\wamp64\www\realtelecom\app\Controllers\Admin\Users.php(19): App\Libraries\Admin\Users->update(Array)
+#1 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Admin\Users->index()
+#2 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#3 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\realtelecom\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\r...')
+#6 {main}
+CRITICAL - 2020-08-13 07:44:45 --> Undefined variable: users
+#0 D:\wamp64\www\realtelecom\app\Views\Admin\Users\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\r...', 39, Array)
+#1 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\wamp64\\www\\r...')
+#2 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('Admin/Users/ind...', Array, true)
+#3 D:\wamp64\www\realtelecom\app\Controllers\Admin\Users.php(36): view('Admin/Users/ind...', Array)
+#4 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Admin\Users->index()
+#5 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\wamp64\www\realtelecom\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\r...')
+#9 {main}
+CRITICAL - 2020-08-13 07:44:59 --> Undefined variable: users
+#0 D:\wamp64\www\realtelecom\app\Views\Admin\Users\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\r...', 39, Array)
+#1 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\wamp64\\www\\r...')
+#2 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('Admin/Users/ind...', Array, true)
+#3 D:\wamp64\www\realtelecom\app\Controllers\Admin\Users.php(36): view('Admin/Users/ind...', Array)
+#4 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Admin\Users->index()
+#5 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\wamp64\www\realtelecom\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\r...')
+#9 {main}
+CRITICAL - 2020-08-13 08:11:03 --> Undefined variable: users
+#0 D:\wamp64\www\realtelecom\app\Views\Admin\Users\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\r...', 39, Array)
+#1 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\wamp64\\www\\r...')
+#2 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('Admin/Users/ind...', Array, true)
+#3 D:\wamp64\www\realtelecom\app\Controllers\Admin\Users.php(38): view('Admin/Users/ind...', Array)
+#4 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Admin\Users->index()
+#5 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\wamp64\www\realtelecom\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\r...')
+#9 {main}
+CRITICAL - 2020-08-13 08:11:38 --> Undefined variable: users
+#0 D:\wamp64\www\realtelecom\app\Views\Admin\Users\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\r...', 39, Array)
+#1 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\wamp64\\www\\r...')
+#2 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('Admin/Users/ind...', Array, true)
+#3 D:\wamp64\www\realtelecom\app\Controllers\Admin\Users.php(38): view('Admin/Users/ind...', Array)
+#4 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Admin\Users->index()
+#5 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\wamp64\www\realtelecom\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\r...')
+#9 {main}
+CRITICAL - 2020-08-13 08:13:10 --> Undefined variable: users
+#0 D:\wamp64\www\realtelecom\app\Views\Admin\Users\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\r...', 39, Array)
+#1 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\wamp64\\www\\r...')
+#2 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('Admin/Users/ind...', Array, true)
+#3 D:\wamp64\www\realtelecom\app\Controllers\Admin\Users.php(38): view('Admin/Users/ind...', Array)
+#4 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Admin\Users->index()
+#5 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\wamp64\www\realtelecom\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\r...')
+#9 {main}
+CRITICAL - 2020-08-13 08:13:26 --> Undefined variable: users
+#0 D:\wamp64\www\realtelecom\app\Views\Admin\Users\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\r...', 39, Array)
+#1 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\wamp64\\www\\r...')
+#2 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('Admin/Users/ind...', Array, true)
+#3 D:\wamp64\www\realtelecom\app\Controllers\Admin\Users.php(38): view('Admin/Users/ind...', Array)
+#4 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Admin\Users->index()
+#5 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\wamp64\www\realtelecom\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\r...')
+#9 {main}
+CRITICAL - 2020-08-13 08:14:47 --> Undefined variable: users
+#0 D:\wamp64\www\realtelecom\app\Views\Admin\Users\index.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\r...', 39, Array)
+#1 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\wamp64\\www\\r...')
+#2 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('Admin/Users/ind...', Array, true)
+#3 D:\wamp64\www\realtelecom\app\Controllers\Admin\Users.php(38): view('Admin/Users/ind...', Array)
+#4 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Admin\Users->index()
+#5 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Users))
+#6 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\wamp64\www\realtelecom\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\r...')
+#9 {main}

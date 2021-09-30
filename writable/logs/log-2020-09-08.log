@@ -1,0 +1,65 @@
+CRITICAL - 2020-09-08 06:55:08 --> Call to a member function add() on string
+#0 D:\wamp64\www\puravida\app\Config\Routes.php(114): require()
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(776): require('D:\\wamp64\\www\\p...')
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#6 {main}
+CRITICAL - 2020-09-08 06:57:06 --> Undefined index: route_filter
+#0 D:\wamp64\www\puravida\app\Routes\Routes.php(13): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\wamp64\\www\\p...', 13, Array)
+#1 D:\wamp64\www\puravida\app\Config\Routes.php(114): require('D:\\wamp64\\www\\p...')
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(776): require('D:\\wamp64\\www\\p...')
+#3 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#4 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#7 {main}
+CRITICAL - 2020-09-08 06:58:28 --> O filtro client-auth deve ter um alias correspondente definido.
+#0 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Filters\Filters.php(324): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('client-auth')
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(369): CodeIgniter\Filters\Filters->enableFilter('client-auth', 'before')
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#5 {main}
+CRITICAL - 2020-09-08 07:11:49 --> Undefined index: id
+#0 D:\wamp64\www\puravida\app\Entities\SysPage.php(51): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\wamp64\\www\\p...', 51, Array)
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Entity.php(299): App\Entities\SysPage->getVariables()
+#2 D:\wamp64\www\puravida\app\Views\App\Register\index.php(11): CodeIgniter\Entity->__get('variables')
+#3 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\View\View.php(246): include('D:\\wamp64\\www\\p...')
+#4 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('App/Register/in...', Array, true)
+#5 D:\wamp64\www\puravida\app\Controllers\App\Register.php(13): view('App/Register/in...', Array)
+#6 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\App\Register->index()
+#7 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App\Register))
+#8 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#11 {main}
+CRITICAL - 2020-09-08 16:34:54 --> Class 'App\Libraries\Client\Auth' not found
+#0 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\ClientAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('nuevo-pedido', 'before')
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#5 {main}
+CRITICAL - 2020-09-08 16:35:21 --> Class 'App\Libraries\Client\Auth' not found
+#0 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\ClientAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('nuevo-pedido', 'before')
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#5 {main}
+CRITICAL - 2020-09-08 16:35:26 --> Class 'App\Libraries\Client\Auth' not found
+#0 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Filters\Filters.php(173): App\Filters\ClientAuth->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(378): CodeIgniter\Filters\Filters->run('nuevo-pedido', 'before')
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#5 {main}
+CRITICAL - 2020-09-08 16:36:29 --> Class 'App\Libraries\Client\Register' not found
+#0 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\App\Register->index()
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App\Register))
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#5 {main}

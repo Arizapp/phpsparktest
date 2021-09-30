@@ -1,0 +1,95 @@
+CRITICAL - 2020-09-14 13:19:53 --> strpos() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expect...', 'D:\\wamp64\\www\\p...', 467, Array)
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Router\Router.php(467): strpos(Array, '$')
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('api/categories')
+#3 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('api/categories')
+#4 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#8 {main}
+CRITICAL - 2020-09-14 13:21:18 --> strpos() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expect...', 'D:\\wamp64\\www\\p...', 467, Array)
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Router\Router.php(467): strpos(Array, '$')
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('api/categories')
+#3 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('api/categories')
+#4 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#8 {main}
+CRITICAL - 2020-09-14 13:22:13 --> strpos() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expect...', 'D:\\wamp64\\www\\p...', 467, Array)
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Router\Router.php(467): strpos(Array, '$')
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('api/categories')
+#3 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('api/categories')
+#4 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#8 {main}
+CRITICAL - 2020-09-14 13:24:48 --> strpos() expects parameter 1 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos() expect...', 'D:\\wamp64\\www\\p...', 467, Array)
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Router\Router.php(467): strpos(Array, '$')
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Router\Router.php(174): CodeIgniter\Router\Router->checkRoutes('api/categories')
+#3 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('api/categories')
+#4 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#8 {main}
+CRITICAL - 2020-09-14 13:27:38 --> Call to undefined function sys_config()
+#0 D:\wamp64\www\puravida\app\Controllers\Api\Cart.php(14): App\Libraries\Builder\Cart->get()
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Api\Cart->index()
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Cart))
+#3 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#6 {main}
+CRITICAL - 2020-09-14 16:55:50 --> Unknown column 'inCart' in 'field list'
+#0 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, `inCa...')
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `inCa...')
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `inCa...')
+#3 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *, `inCa...', Array, false)
+#4 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wamp64\www\puravida\app\Libraries\Builder\Cart.php(32): CodeIgniter\Model->findAll()
+#6 D:\wamp64\www\puravida\app\Controllers\Api\Cart.php(17): App\Libraries\Builder\Cart->get()
+#7 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Api\Cart->index()
+#8 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Cart))
+#9 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#12 {main}
+CRITICAL - 2020-09-14 16:56:04 --> You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '0
+FROM `sys_products`
+WHERE `amount` > 0
+ORDER BY `sys_product_category_id`, `na' at line 1
+#0 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT *, `inCa...')
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `inCa...')
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `inCa...')
+#3 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *, `inCa...', Array, false)
+#4 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\wamp64\www\puravida\app\Libraries\Builder\Cart.php(32): CodeIgniter\Model->findAll()
+#6 D:\wamp64\www\puravida\app\Controllers\Api\Cart.php(17): App\Libraries\Builder\Cart->get()
+#7 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Api\Cart->index()
+#8 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Cart))
+#9 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#11 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#12 {main}
+CRITICAL - 2020-09-14 17:33:44 --> Call to undefined method App\Libraries\Builder\Cart::updateProductAmount()
+#0 D:\wamp64\www\puravida\app\Controllers\Api\Cart.php(14): App\Libraries\Builder\Cart->get()
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Api\Cart->index()
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Cart))
+#3 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#6 {main}
+CRITICAL - 2020-09-14 17:33:57 --> Call to undefined method App\Libraries\Builder\Cart::updateProductAmount()
+#0 D:\wamp64\www\puravida\app\Controllers\Api\Cart.php(14): App\Libraries\Builder\Cart->get()
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Api\Cart->index()
+#2 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\Cart))
+#3 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#6 {main}

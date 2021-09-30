@@ -1,0 +1,14 @@
+CRITICAL - 2020-08-08 15:42:38 --> Nenhuma conexão pôde ser feita porque a máquina de destino as recusou ativamente.
+
+#0 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Model.php(489): CodeIgniter\Database\BaseBuilder->get()
+#4 D:\wamp64\www\realtelecom\app\Models\SysPages.php(55): CodeIgniter\Model->first()
+#5 D:\wamp64\www\realtelecom\app\Controllers\App\Subscribe.php(12): App\Models\SysPages->find('assine-agora')
+#6 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\App\Subscribe->index('114')
+#7 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App\Subscribe))
+#8 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\wamp64\www\realtelecom\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 D:\wamp64\www\realtelecom\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\r...')
+#11 {main}

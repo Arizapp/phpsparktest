@@ -1,0 +1,18 @@
+CRITICAL - 2020-07-30 10:05:46 --> Undefined variable: categories
+#0 D:\wamp64\www\minutoadv2\app\Controllers\Lawyer\Account\Profile.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\m...', 67, Array)
+#1 D:\wamp64\www\minutoadv2\app\Controllers\Lawyer\Account\Profile.php(38): App\Controllers\Lawyer\Account\Profile->data(Array, Object(App\Entities\Lawyer))
+#2 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Lawyer\Account\Profile->index()
+#3 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lawyer\Account\Profile))
+#4 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\wamp64\www\minutoadv2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\m...')
+#7 {main}
+CRITICAL - 2020-07-30 10:05:56 --> Undefined variable: categories
+#0 D:\wamp64\www\minutoadv2\app\Controllers\Lawyer\Account\Profile.php(67): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\wamp64\\www\\m...', 67, Array)
+#1 D:\wamp64\www\minutoadv2\app\Controllers\Lawyer\Account\Profile.php(38): App\Controllers\Lawyer\Account\Profile->data(Array, Object(App\Entities\Lawyer))
+#2 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\Lawyer\Account\Profile->index()
+#3 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Lawyer\Account\Profile))
+#4 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\wamp64\www\minutoadv2\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 D:\wamp64\www\minutoadv2\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\m...')
+#7 {main}

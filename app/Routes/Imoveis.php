@@ -1,0 +1,18 @@
+<?php return array (
+  1 => 'goias-goiania-imoveil-1',
+  2 => 'goias-goiania-imoveil-2',
+  3 => 'goias-goiania-imoveil-3',
+  4 => 'goias-goiania-imoveil-4',
+  5 => 'goias-goiania-imoveil-5',
+  6 => 'goias-goiania-imoveil-6',
+  7 => 'goias-goiania-imoveil-7',
+  8 => 'goias-goiania-imoveil-8',
+  9 => 'goias-goiania-imoveil-9',
+  10 => 'goias-goiania-imoveil-10',
+  11 => 'goias-goiania-imoveil-11',
+  12 => 'goias-goiania-imoveil-12',
+  13 => 'goias-goiania-imoveil-13',
+  14 => 'imovel/goias/goiania/14-cobertura',
+  15 => 'imovel/goias/goiania/15-cobertura',
+  16 => 'imovel/goias/goiania/pedro ludovico/16-cobertura',
+);

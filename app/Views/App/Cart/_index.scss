@@ -1,0 +1,19 @@
+#Builder {
+    /* Chrome, Safari, Edge, Opera */
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+    /* Firefox */
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+
+    h4 {
+        @include media-breakpoint-down(sm) {
+            font-size: 1.4rem;
+        }
+    }
+}

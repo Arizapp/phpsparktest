@@ -1,0 +1,19 @@
+@import '../../variables';
+
+#admin-header {
+    .nav-link {
+        color: darken(white, 10%);
+
+        &.dropdown-toggle:after {
+            color: $orange;
+
+        }
+    }
+}
+
+.Admin-Products-index,
+.Admin-Products-categories {
+    main > .container {
+        padding-top: 96px !important;
+    }
+}

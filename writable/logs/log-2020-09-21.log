@@ -1,0 +1,10 @@
+CRITICAL - 2020-09-21 10:22:41 --> Arquivo inválido: App/Invoices/index.php
+#0 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('App/Invoices/in...')
+#1 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Common.php(1087): CodeIgniter\View\View->render('App/Invoices/in...', Array, true)
+#2 D:\wamp64\www\puravida\app\Controllers\App\Invoices.php(26): view('App/Invoices/in...', Array)
+#3 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(914): App\Controllers\App\Invoices->index()
+#4 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App\Invoices))
+#5 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\wamp64\www\puravida\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 D:\wamp64\www\puravida\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(34): require_once('D:\\wamp64\\www\\p...')
+#8 {main}

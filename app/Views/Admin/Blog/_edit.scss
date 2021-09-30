@@ -1,0 +1,39 @@
+body.Admin-Blog-edit {
+
+    .bootstrap-tagsinput {
+        display: block;
+        .badge {
+            font-weight: normal;
+        }
+    }
+
+    #variables-list {
+        > table > tbody > tr:first-child td {
+            border-top: 0;
+        }
+
+        .img-thumbnail {
+            //max-height: 150px;
+        }
+    }
+
+    .accordion-heading {
+        @extend .bg-gray-light;
+        @extend .px-3;
+        @extend .py-2;
+        @extend .cursor-pointer;
+        border-bottom: 1px solid $gray-200;
+
+        &:before {
+            @extend .fas;
+            @extend .fa-fw;
+            @extend .fa-caret-down;
+        }
+
+        &.collapsed:before {
+            @extend .fa-caret-right;
+        }
+    }
+
+
+}

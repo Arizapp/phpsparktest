@@ -1,0 +1,30 @@
+CRITICAL - 2021-03-30 13:44:41 --> The action you requested is not allowed.
+#0 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Security\Security.php(231): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Filters\CSRF.php(57): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Filters\Filters.php(181): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(403): CodeIgniter\Filters\Filters->run('admin/api/imove...', 'before')
+#4 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#7 {main}
+CRITICAL - 2021-03-30 14:12:53 --> Declaration of App\Models\ImoveisGallery::find(?int $id = NULL): App\Entities\ImovelGallery should be compatible with CodeIgniter\BaseModel::find($id = NULL)
+#0 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(294): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\wamp64\\www\\b...', 39, Array)
+#1 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(294): include_once()
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(265): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\wamp64\\www\\b...')
+#3 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Autoloader\Autoloader.php(228): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Imov...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Imov...')
+#5 C:\wamp64\www\bestimob\app\Controllers\Admin\Imoveis.php(107): spl_autoload_call('App\\Models\\Imov...')
+#6 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin\Imoveis->edit(17)
+#7 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Imoveis))
+#8 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#11 {main}
+CRITICAL - 2021-03-30 15:14:32 --> Return value of App\Models\ImoveisGallery::find() must be an instance of App\Entities\ImovelGallery, array returned
+#0 C:\wamp64\www\bestimob\app\Controllers\Admin\Api\Imoveis.php(166): App\Models\ImoveisGallery->find(12)
+#1 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin\Api\Imoveis->galleryAdd()
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Api\Imoveis))
+#3 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#6 {main}

@@ -1,0 +1,37 @@
+CRITICAL - 2021-05-10 09:09:52 --> Unable to connect to the database.
+#0 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Database\BaseConnection.php(618): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1866): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Model.php(247): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\BaseModel.php(624): CodeIgniter\Model->doFirst()
+#4 C:\wamp64\www\bestimob\app\Models\SysPages.php(47): CodeIgniter\BaseModel->first()
+#5 C:\wamp64\www\bestimob\app\Controllers\App\Home.php(9): App\Models\SysPages->find('home')
+#6 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\App\Home->index()
+#7 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App\Home))
+#8 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#11 {main}
+CRITICAL - 2021-05-10 09:56:57 --> Undefined variable: publicado
+#0 C:\wamp64\www\bestimob\app\Views\Admin\Imoveis\index.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\b...', 145, Array)
+#1 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Imoveis/i...', Array, true)
+#4 C:\wamp64\www\bestimob\app\Controllers\Admin\Imoveis.php(28): view('Admin/Imoveis/i...', Array)
+#5 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin\Imoveis->index()
+#6 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Imoveis))
+#7 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}
+CRITICAL - 2021-05-10 09:57:08 --> Undefined variable: publicado
+#0 C:\wamp64\www\bestimob\app\Views\Admin\Imoveis\index.php(145): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\wamp64\\www\\b...', 145, Array)
+#1 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\View\View.php(220): include('C:\\wamp64\\www\\b...')
+#2 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\View\View.php(222): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Common.php(1217): CodeIgniter\View\View->render('Admin/Imoveis/i...', Array, true)
+#4 C:\wamp64\www\bestimob\app\Controllers\Admin\Imoveis.php(28): view('Admin/Imoveis/i...', Array)
+#5 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(936): App\Controllers\Admin\Imoveis->index()
+#6 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(432): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Imoveis))
+#7 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\CodeIgniter.php(333): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\wamp64\www\bestimob\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 C:\wamp64\www\bestimob\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(45): require_once('C:\\wamp64\\www\\b...')
+#10 {main}

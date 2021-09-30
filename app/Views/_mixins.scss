@@ -1,0 +1,18 @@
+@mixin input-icon-lg($code) {
+    position: relative;
+
+    &:before {
+        @extend .fas;
+        content: $code;
+        font-size: 1rem;
+        color: $gray-600;
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    input {
+        padding-left: 50px;
+    }
+}

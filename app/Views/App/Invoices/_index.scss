@@ -1,0 +1,70 @@
+#Invoices {
+    h4 {
+        @include media-breakpoint-down(sm) {
+            font-size: 1rem;
+        }
+    }
+
+    @include media-breakpoint-down(sm) {
+        padding-left: 0;
+        padding-right: 0;
+        & > header {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .invoice {
+            & > .row {
+                padding: 15px;
+                border-bottom: 1px solid #EEE;
+                border-top: 1px solid #DDD;
+                background: linear-gradient(0deg, rgba(230,230,230,1) 0%, rgba(249,249,249,1) 60%);
+            }
+        }
+    }
+
+    .invoice {
+        &:hover {
+            > .row {
+                color: $secondary;
+            }
+        }
+    }
+
+    .product {
+        position: relative;
+        .cursor-pointer {
+            cursor: zoom-in;
+        }
+
+        .picture {
+            background-color: gray;
+            position: absolute;
+            top: 1.5rem;
+            left: -1.5rem;
+            transform: translate(-100%, -50%);
+            width: 220px;
+            height: 220px;
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            z-index: 10;
+
+            &:after {
+                content: "×";
+                color: $gray-400;
+                position: absolute;
+                top: 0;
+                right: 5px;
+                z-index: 1;
+                cursor: pointer;
+            }
+
+            @media (max-width: 1599px) {
+                left: 0;
+                top: -220px;
+                transform: none;
+            }
+        }
+
+    }
+}
