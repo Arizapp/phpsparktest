@@ -33,9 +33,9 @@ class Database extends \CodeIgniter\Database\Config
 	 */
 	public $default = [
 		'DSN'      => '',
-		'hostname' => 'localhost',
-		'username' => 'root',
-		'password' => '',
+		'hostname' => '162.214.53.218',
+		'username' => 'bestimob',
+		'password' => '050585_a*',
 		'database' => 'bestimob',
 		'DBDriver' => 'MySQLi',
 		'DBPrefix' => '',
@@ -43,7 +43,7 @@ class Database extends \CodeIgniter\Database\Config
 		'DBDebug'  => (ENVIRONMENT !== 'production'),
 		'cacheOn'  => false,
 		'cacheDir' => '',
-		'charset'  => 'utf8',
+		'charset'  => 'utf8mb4',
 		'DBCollat' => 'utf8mb4_unicode_ci',
 		'swapPre'  => '',
 		'encrypt'  => false,
@@ -61,9 +61,9 @@ class Database extends \CodeIgniter\Database\Config
 	 */
 	public $tests = [
 		'DSN'      => '',
-		'hostname' => '127.0.0.1',
-		'username' => '',
-		'password' => '',
+		'hostname' => '162.214.53.218',
+		'username' => 'bestimob',
+		'password' => '050585_a*',
 		'database' => ':memory:',
 		'DBDriver' => 'SQLite3',
 		'DBPrefix' => 'db_',  // Needed to ensure we're working correctly with prefixes live. DO NOT REMOVE FOR CI DEVS
