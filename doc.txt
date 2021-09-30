@@ -4,6 +4,11 @@ https://howmarketing-arizapp-phpsparktest-pj7r6v6jjcrxp-8080.githubpreview.dev/
 
 
 
+download to cd /usr/local/lib/php/extensions/no-debug-non-zts-20190902/
+
+
+
+
 install intl extension
 sudo su
 apt-get -y update
