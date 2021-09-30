@@ -1,0 +1,12 @@
+https://howmarketing-arizapp-whatsapp-jjr5g6gjjcr7p-8181.githubpreview.dev/Login
+https://howmarketing-arizapp-phpsparktest-pj7r6v6jjcrxp-9000.githubpreview.dev/
+https://howmarketing-arizapp-phpsparktest-pj7r6v6jjcrxp-8080.githubpreview.dev/
+
+
+
+install intl extension
+sudo su
+apt-get -y update
+apt-get install -y libicu-dev
+docker-php-ext-configure intl
+docker-php-ext-install intl

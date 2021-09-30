@@ -23,7 +23,7 @@ class App extends BaseConfig
 	| environments.
 	|
 	*/
-	public $baseURL = 'http://localhost:81/';
+	public $baseURL = 'https://howmarketing-arizapp-phpsparktest-pj7r6v6jjcrxp-8080.githubpreview.dev/';
 
 	/*
 	|--------------------------------------------------------------------------
