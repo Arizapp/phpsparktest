@@ -1,3 +1,9 @@
+run: sudo apt-get update
+run: sudo apt-get install -y zlib1g-dev libicu-dev g++
+run: sudo docker-php-ext-configure intl
+run: sudo docker-php-ext-install intl
+
+
 sudo apt-get update
 Hit:1 http://deb.debian.org/debian bullseye InRelease
 Hit:2 http://deb.debian.org/debian bullseye-updates InRelease          
