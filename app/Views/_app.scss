@@ -1,15 +1,12 @@
 @import "App/defaults";
-
 @import 'App/Partials/header';
 @import 'App/Partials/footer';
 @import 'App/Partials/social';
-
-
+@import 'App/Partials/search';
 @import "App/Login/index";
 @import "App/Register/index";
 @import "App/Builder/index";
 @import "App/Invoices/index";
-
 @import "App/Home/index";
 @import "App/Contato/index";
 @import "App/Faq/index";

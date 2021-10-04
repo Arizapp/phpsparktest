@@ -1,78 +1,75 @@
 @import '../../variables';
-
 body {
-  padding-top: 152px;
-  @include media-breakpoint-down(sm) {
-    padding-top: 40px;
-  }
-
-  &.admin {
-    padding-top: 80px;
-  }
-
+    padding-top: 152px;
+    @include media-breakpoint-down(sm) {
+        padding-top: 40px;
+    }
+    &.admin {
+        padding-top: 80px;
+    }
 }
 
 #main-nav {
-  @include media-breakpoint-up(sm) {
-    border-radius: 50rem;
-  }
+    @include media-breakpoint-up(sm) {
+        border-radius: 50rem;
+    }
 }
 
 #main-menu {
-  .nav-item {
-    &.active {
-      .nav-link {
-        background: $secondary !important;
-        @include media-breakpoint-down(sm) {
-          border-radius: 50rem;
+    justify-content: space-around;
+    .navbar-nav {
+        flex: 1;
+        justify-content: inherit;
+    }
+    .nav-item {
+        &.active {
+            .nav-link {
+                background: $secondary !important;
+                @include media-breakpoint-down(sm) {
+                    border-radius: 50rem;
+                }
+            }
         }
-      }
-    }
-    &:hover {
-      .nav-link {
-        background: $gray-300;
-        @include media-breakpoint-down(sm) {
-          border-radius: 50rem;
+        &:hover {
+            .nav-link {
+                background: $gray-300;
+                @include media-breakpoint-down(sm) {
+                    border-radius: 50rem;
+                }
+            }
         }
-      }
+        .btn-secondary {
+            white-space: nowrap;
+            @include media-breakpoint-down(sm) {
+                margin-top: 1rem;
+                margin-bottom: 1rem;
+                width: 100%;
+            }
+        }
+        .nav-link {
+            white-space: nowrap;
+            color: black;
+            height: 60px;
+            line-height: 40px;
+            @include media-breakpoint-down(sm) {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+            @include media-breakpoint-up(sm) {
+                height: 104px;
+                line-height: 85px;
+            }
+        }
     }
-
-    .btn-secondary {
-      white-space: nowrap;
-      @include media-breakpoint-down(sm) {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        width: 100%;
-      }
-    }
-
-    .nav-link {
-      white-space: nowrap;
-      color: black;
-      height: 60px;
-      line-height: 40px;
-
-      @include media-breakpoint-down(sm) {
-        padding-left: 1rem;
-        padding-right: 1rem;
-      }
-
-      @include media-breakpoint-up(sm) {
-        height: 104px;
-        line-height: 85px;
-      }
-    }
-  }
 }
 
 #main-header {
-  @include media-breakpoint-up(sm) {
-    margin-top: 1.5rem;
-  }
-
-  .container {
-    @include media-breakpoint-down(sm) {
-      padding: 0;
+    @include media-breakpoint-up(sm) {
+        margin-top: 1.5rem;
     }
-  }
+    .container {
+        @include media-breakpoint-down(sm) {
+            padding: 0;
+        }
+    }
 }

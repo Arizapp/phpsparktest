@@ -37,8 +37,8 @@ $purple: #6f42c1 !default;
 $pink: #e83e8c !default;
 $red: #a90100 !default;
 $orange: #fd7e14 !default;
-$yellow: #f87f2e;
-$oldYellow: #FFC200 !default; //#ffc107
+$yellow: #FFC200;
+$oldYellow: #ffc107 !default; //#ffc107
 $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
@@ -56,7 +56,7 @@ $light: $gray-100 !default;
 $dark: $black; //$gray-800 !default;
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
-$theme-colors: map-merge( ( "primary": $primary, "secondary": $teste, "success": $success, "info": $info, "warning": $warning, "danger": $danger, "light": $light, "dark": $dark, "blue": $blue, "indigo": $indigo, "purple": $purple, "pink": $pink, "red": $red, "orange": $orange, "yellow": $yellow, "green": $green, "teal": $teal, "cyan": $cyan, "white": $white, "gray-light": $gray-300, "gray-lighter": $gray-200, "gray-medium": $gray-400, "gray-medium-dark": $gray-500, "gray": $gray-600, "gray-dark": $gray-800), $theme-colors);
+$theme-colors: map-merge( ( "primary": $primary, "secondary": $yellow, "success": $success, "info": $info, "warning": $warning, "danger": $danger, "light": $light, "dark": $dark, "blue": $blue, "indigo": $indigo, "purple": $purple, "pink": $pink, "red": $red, "orange": $orange, "yellow": $yellow, "green": $green, "teal": $teal, "cyan": $cyan, "white": $white, "gray-light": $gray-300, "gray-lighter": $gray-200, "gray-medium": $gray-400, "gray-medium-dark": $gray-500, "gray": $gray-600, "gray-dark": $gray-800), $theme-colors);
 $input-border-radius: 10px; //$border-radius !default;
 $input-border-radius-lg: 10px;
 $card-border-radius: 15px;
