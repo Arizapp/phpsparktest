@@ -1,0 +1,17 @@
+CRITICAL - 2021-10-04 13:27:13 --> fopen(/workspaces/phpsparktest/writable/session/ci_sessiona50ec771454bb873a587cf8ab3ad00ed4c1dda70): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(/workspac...', '/workspaces/php...', 129, Array)
+#1 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/Session/Handlers/FileHandler.php(129): fopen('/workspaces/php...', 'c+b')
+#2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->read('a50ec771454bb87...')
+#3 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/Session/Session.php(898): session_start()
+#4 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/Session/Session.php(238): CodeIgniter\Session\Session->startSession()
+#5 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/Config/Services.php(577): CodeIgniter\Session\Session->start()
+#6 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/Config/BaseService.php(189): CodeIgniter\Config\Services::session(Object(Config\App), false)
+#7 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/Config/Services.php(563): CodeIgniter\Config\BaseService::getSharedInstance('session', NULL)
+#8 /workspaces/phpsparktest/app/Libraries/BaseAuth.php(17): CodeIgniter\Config\Services::session()
+#9 /workspaces/phpsparktest/app/Controllers/App/AppController.php(62): App\Libraries\BaseAuth->__construct()
+#10 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/CodeIgniter.php(780): App\Controllers\App\AppController->initController(Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), Object(CodeIgniter\Log\Logger))
+#11 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/CodeIgniter.php(390): CodeIgniter\CodeIgniter->createController()
+#12 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 /workspaces/phpsparktest/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#14 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/workspaces/php...')
+#15 {main}

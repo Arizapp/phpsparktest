@@ -1,0 +1,26 @@
+CRITICAL - 2021-09-30 20:07:30 --> Arquivo inválido: Admin/imoveis/edit/gallery.php
+#0 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Admin/imoveis/e...')
+#1 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('Admin/imoveis/e...', Array, true)
+#2 /workspaces/phpsparktest/app/Views/Admin/Imoveis/edit.php(269): view('Admin/imoveis/e...', Array)
+#3 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/View/View.php(214): include('/workspaces/php...')
+#4 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('Admin/Imoveis/e...', Array, true)
+#6 /workspaces/phpsparktest/app/Controllers/Admin/Imoveis.php(114): view('Admin/Imoveis/e...', Array)
+#7 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\Admin\Imoveis->edit(22)
+#8 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Imoveis))
+#9 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /workspaces/phpsparktest/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#11 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/workspaces/php...')
+#12 {main}
+CRITICAL - 2021-09-30 20:18:46 --> Undefined index: banner
+#0 /workspaces/phpsparktest/app/Views/App/Simulador/idade.php(14): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', '/workspaces/php...', 14, Array)
+#1 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/View/View.php(214): include('/workspaces/php...')
+#2 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/View/View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/Common.php(1092): CodeIgniter\View\View->render('App/Simulador/i...', Array, true)
+#4 /workspaces/phpsparktest/app/Controllers/App/Simulador.php(31): view('App/Simulador/i...', Array)
+#5 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/CodeIgniter.php(802): App\Controllers\App\Simulador->idade()
+#6 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\App\Simulador))
+#7 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /workspaces/phpsparktest/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 /workspaces/phpsparktest/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(43): require_once('/workspaces/php...')
+#10 {main}

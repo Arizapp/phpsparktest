@@ -1,13 +1,22 @@
 $fa-font-path: "/assets/fonts/";
-$font-family-sans-serif: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
-
+$font-family-sans-serif: "Noto Sans",
+-apple-system,
+BlinkMacSystemFont,
+"Segoe UI",
+Roboto,
+"Helvetica Neue",
+Arial,
+"Noto Sans",
+sans-serif,
+"Apple Color Emoji",
+"Segoe UI Emoji",
+"Segoe UI Symbol",
+"Noto Color Emoji" !default;
 // Variables
 //
 // Variables should follow the `$component-state-property-size` formula for
 // consistent naming. Ex: $nav-link-disabled-color and $modal-content-box-shadow-xs.
-
 // Color system
-
 $white: #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
@@ -19,56 +28,24 @@ $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
-
 $grays: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
-$grays: map-merge(
-                (
-                        "100": $gray-100,
-                        "200": $gray-200,
-                        "300": $gray-300,
-                        "400": $gray-400,
-                        "500": $gray-500,
-                        "600": $gray-600,
-                        "700": $gray-700,
-                        "800": $gray-800,
-                        "900": $gray-900
-                ),
-                $grays
-);
-
+$grays: map-merge( ( "100": $gray-100, "200": $gray-200, "300": $gray-300, "400": $gray-400, "500": $gray-500, "600": $gray-600, "700": $gray-700, "800": $gray-800, "900": $gray-900), $grays);
 $blue: #000C75; //#007bff !default;
 $indigo: #6610f2 !default;
 $purple: #6f42c1 !default;
 $pink: #e83e8c !default;
 $red: #a90100 !default;
 $orange: #fd7e14 !default;
-$yellow: #FFC200; //#ffc107 !default;
+$yellow: #f87f2e;
+$oldYellow: #FFC200 !default; //#ffc107
 $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
-
+$teste: #0099FF;
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
-$colors: map-merge(
-                (
-                        "blue": $blue,
-                        "indigo": $indigo,
-                        "purple": $purple,
-                        "pink": $pink,
-                        "red": $red,
-                        "orange": $orange,
-                        "yellow": $yellow,
-                        "green": $green,
-                        "teal": $teal,
-                        "cyan": $cyan,
-                        "white": $white,
-                        "gray": $gray-600,
-                        "gray-dark": $gray-800
-                ),
-                $colors
-);
-
+$colors: map-merge( ( "blue": $blue, "indigo": $indigo, "purple": $purple, "pink": $pink, "red": $red, "orange": $orange, "yellow": $yellow, "green": $green, "teal": $teal, "cyan": $cyan, "white": $white, "gray": $gray-600, "gray-dark": $gray-800), $colors);
 $primary: $blue !default;
 $secondary: $yellow; //$gray-600 !default;
 $success: $green !default;
@@ -77,41 +54,10 @@ $warning: $yellow !default;
 $danger: $red !default;
 $light: $gray-100 !default;
 $dark: $black; //$gray-800 !default;
-
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
-$theme-colors: map-merge(
-                (
-                        "primary": $primary,
-                        "secondary": $secondary,
-                        "success": $success,
-                        "info": $info,
-                        "warning": $warning,
-                        "danger": $danger,
-                        "light": $light,
-                        "dark": $dark,
-                        "blue": $blue,
-                        "indigo": $indigo,
-                        "purple": $purple,
-                        "pink": $pink,
-                        "red": $red,
-                        "orange": $orange,
-                        "yellow": $yellow,
-                        "green": $green,
-                        "teal": $teal,
-                        "cyan": $cyan,
-                        "white": $white,
-                        "gray-light": $gray-300,
-                        "gray-lighter": $gray-200,
-                        "gray-medium": $gray-400,
-                        "gray-medium-dark": $gray-500,
-                        "gray": $gray-600,
-                        "gray-dark": $gray-800
-                ),
-                $theme-colors
-);
-
-$input-border-radius:                   10px; //$border-radius !default;
-$input-border-radius-lg:                10px;
-$card-border-radius:                15px;
+$theme-colors: map-merge( ( "primary": $primary, "secondary": $teste, "success": $success, "info": $info, "warning": $warning, "danger": $danger, "light": $light, "dark": $dark, "blue": $blue, "indigo": $indigo, "purple": $purple, "pink": $pink, "red": $red, "orange": $orange, "yellow": $yellow, "green": $green, "teal": $teal, "cyan": $cyan, "white": $white, "gray-light": $gray-300, "gray-lighter": $gray-200, "gray-medium": $gray-400, "gray-medium-dark": $gray-500, "gray": $gray-600, "gray-dark": $gray-800), $theme-colors);
+$input-border-radius: 10px; //$border-radius !default;
+$input-border-radius-lg: 10px;
+$card-border-radius: 15px;
 //$input-border-radius-sm:                $border-radius-sm !default;

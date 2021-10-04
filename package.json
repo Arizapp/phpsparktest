@@ -27,5 +27,10 @@
     "vue-avatar-cropper": "^1.0.9",
     "vue-input-only-number": "^1.1.0",
     "vue-the-mask": "^0.11.1"
+  },
+  "devDependencies": {
+    "@popperjs/core": "^2.10.2",
+    "bootstrap": "^5.1.1",
+    "node-sass": "^6.0.1"
   }
 }

@@ -4,6 +4,9 @@ run: sudo docker-php-ext-configure intl
 run: sudo docker-php-ext-install intl
 
 
+sudo docker-php-ext-configure json
+sudo docker-php-ext-install json
+
 sudo apt-get update
 Hit:1 http://deb.debian.org/debian bullseye InRelease
 Hit:2 http://deb.debian.org/debian bullseye-updates InRelease          
