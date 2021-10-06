@@ -1,4 +1,5 @@
 <?php
+
 /**
  * @var \App\Entities\SysPage $page
  * @var \App\Entities\Imovel[] $imoveis_buscados
@@ -6,7 +7,7 @@
  */
 ?>
 <?= partial_view('header') ?>
-<?= partial_view('search') ?>
+<?= partial_view('search', compact('page')) ?>
 
 <?= view('App/Home/mais_buscados', [
     'page'    => $page,

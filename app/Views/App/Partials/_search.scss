@@ -2,7 +2,16 @@
     form {
         .form-group {
             select {
-                padding-left: 15px;
+                padding-left: 0;
+                border-top-left-radius: 0px !important;
+                border-bottom-left-radius: 0px !important;
+                border-left: 0px !important;
+            }
+            .input-group .input-group-prepend label {
+                background-color: #FFF;
+                border-right: none;
+                border-top-left-radius: 20px;
+                border-bottom-left-radius: 20px;
             }
         }
     }
