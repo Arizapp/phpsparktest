@@ -1,3 +1,12 @@
 body.home {
-  background: url("../img/top-bg.png") top center no-repeat;
+    background: url("../img/top-bg.png") top center no-repeat;
+}
+
+.card-video-area {
+    padding: 8px;
+    .card-video-item {
+        padding: 23px ​10px 15px 15px !important;
+        border-radius: 8px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+    }
 }

@@ -12,7 +12,7 @@ $request = \Config\Services::request();
   <div class="row justify-content-center">
     <div class="col-9">
       <form action="<?= site_url('imoveis/busca') ?>" method="get">
-        <h1 class="text-center text-secondary pt-5 mb-5">ENCONTRE OS MELHORES IMÓVEIS</h1>
+        <h1 class="text-center text-secondary pt-5 mb-5">ENCONTRE OS MELHORES IMÓVEIS.</h1>
         <div class="form-row">
           <div class="col-sm-6">
             <div class="form-group">

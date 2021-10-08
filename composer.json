@@ -26,6 +26,11 @@
             "@composer dump-autoload"
         ]
     },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
     "support": {
         "forum": "http://forum.codeigniter.com/",
         "source": "https://github.com/codeigniter4/CodeIgniter4",

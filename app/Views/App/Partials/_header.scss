@@ -10,6 +10,13 @@ body {
 }
 
 #main-nav {
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.08);
+    background-color: #FFF !important;
+    .navbar-brand {
+        img {
+            margin: 6px 0 1px 16px !important;
+        }
+    }
     @include media-breakpoint-up(sm) {
         border-radius: 50rem;
     }
@@ -20,9 +27,21 @@ body {
     .navbar-nav {
         flex: 1;
         justify-content: inherit;
+        .dropdown-menu {
+            min-width: 90px;
+            border-top: 5px solid $yellow;
+            padding-top: 1px;
+            border-top-left-radius: 2px;
+            border-top-right-radius: 2px;
+            .dropdown-item {
+                font-weight: bold;
+                color: #212529;
+            }
+        }
     }
     .nav-item {
-        &.active {
+        &.active,
+        &.dropdown.show {
             .nav-link {
                 background: $secondary !important;
                 @include media-breakpoint-down(sm) {
@@ -49,15 +68,17 @@ body {
         .nav-link {
             white-space: nowrap;
             color: black;
-            height: 60px;
-            line-height: 40px;
+            height: 80px;
+            line-height: 65px;
+            font-size: 19px;
+            font-weight: 600;
             @include media-breakpoint-down(sm) {
                 padding-left: 1rem;
                 padding-right: 1rem;
             }
             @include media-breakpoint-up(sm) {
-                height: 104px;
-                line-height: 85px;
+                height: 80px;
+                line-height: 65px;
             }
         }
     }

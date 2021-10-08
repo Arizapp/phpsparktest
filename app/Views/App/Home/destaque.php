@@ -12,7 +12,7 @@
   <div class="mt-5">
     <div class="row">
         <?php foreach ($imoveis as $imovel): ?>
-          <div class="col-sm-3 ">
+          <div class="col-sm-3 card-video-area">
             <a target="_blank" href="<?=  $imovel->youtube ?>"
                 class="d-block" style="
                 background-image: url('<?= img_uploaded_url($imovel->foto) ?>');
@@ -20,7 +20,7 @@
                 background-repeat: no-repeat;
                 background-size: cover;
                 ">
-              <div class="py-5 px-3" style="background: rgba(0,0,0,0.5);">
+              <div class="py-5 px-3 card-video-item" style="background: rgba(0,0,0,0.5);">
                 <img src="<?= img_uploaded_url($page->variables['ico_youtube']->value) ?>" alt="">
                 <div class="text-white my-4"><?= $imovel->cidade->name ?></div>
                 <h5 class="text-secondary my-4 font-weight-normal">
@@ -38,7 +38,7 @@
                     }
                     ?> no Setor <?= $imovel->bairro ?>
                 </h5>
-                <small class="text-white"><?= nl2br($imovel->sobre) ?></small>
+                <small class="text-white"><?= substr(strip_tags(nl2br($imovel->sobre)),0,200); ?></small>
               </div>
             </a>
           </div>

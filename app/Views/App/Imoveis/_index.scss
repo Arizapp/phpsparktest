@@ -2,81 +2,136 @@ body.comprar,
 body.alugar,
 body.investir,
 body.imoveis {
-  background: url("../img/top-bg.png") top center no-repeat;
+    background: url("../img/top-bg.png") top center no-repeat;
 }
 
 body.imovel {
-  background-position: top center;
-  background-repeat: no-repeat;
-
-  .fotos {
-
-    .foto {
-      height: 520px;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: cover;
-    }
-
-    .galeria {
-
-      .col-2 {
-        padding: 0 5px;
-
-        &:first-child {
-          padding-left: 15px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    .fotos {
+        .foto {
+            height: 520px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
         }
-
-        &:last-child {
-          padding-right: 15px;
+        .galeria {
+            .col-2 {
+                padding: 0 5px;
+                &:first-child {
+                    padding-left: 15px;
+                }
+                &:last-child {
+                    padding-right: 15px;
+                }
+            }
+            .foto-galeria {
+                height: 120px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                cursor: pointer;
+            }
         }
-      }
-
-      .foto-galeria {
-        height: 120px;
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        cursor: pointer;
-      }
-
     }
-
-  }
-
 }
 
 #imoveis-grid {
-  .picture {
-    position: relative;
-
-    .ver-imovel {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    .imovel {
+        .card {
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+        }
     }
-
-    .lancamento {
-      position: absolute;
-      top: 1rem;
-      left: 1rem;
-      font-size: 0.8rem;
-      font-weight: bold;
-      padding: 0.1rem 0.4rem 0.2rem;
+    .card-title.imoveis-grid {
+        margin-bottom: 29px;
+        .imovel-titulo {
+            font-size: 16px;
+        }
     }
-  }
-
-  .titulo {
-    vertical-align: middle;
-
-    .link-youtube {
-      vertical-align: middle;
-      font-size: 1.3rem;
-      margin-left: 0.3rem;
+    .picture {
+        position: relative;
+        .ver-imovel {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%);
+        }
+        .lancamento {
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            font-size: 0.8rem;
+            font-weight: bold;
+            padding: 0.1rem 0.4rem 0.2rem;
+        }
     }
-
-
-  }
+    .titulo {
+        vertical-align: middle;
+        .link-youtube {
+            vertical-align: middle;
+            font-size: 1.3rem;
+            margin-left: 0.3rem;
+        }
+    }
+    .precoView {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-size: 16px;
+            font-weight: 500;
+            margin: 0;
+            padding: 0;
+            display: inline-block;
+        }
+        button,
+        button.btn,
+        button.btn-primary,
+        button.btn.btn-primary {
+            background-color: #000C75 !important;
+            color: #FFF !important;
+            font-weight: 400;
+            font-size: 13px !important;
+            padding: 5px 8px !important;
+            border-radius: 30px !important;
+            height: 30px !important;
+        }
+    }
+    .detalhesView {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        padding: 0px 8px;
+        margin-top: 10px;
+        .detalhesViewItem {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 8px;
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-size: 16px;
+                font-weight: 500;
+            }
+            small {
+                font-size: 10px;
+                font-weight: 300;
+            }
+        }
+    }
 }
